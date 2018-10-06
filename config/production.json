@@ -1,0 +1,15 @@
+{
+	"port": 8080,
+	"isProdcution": true,
+	"api": {
+		"auth": {
+			"cookie": {
+				"secure": true
+			}
+		},
+		"postgres": {
+			"client": "pg",
+			"connection": "postgres://postgres:postgres@localhost:5432/ses"
+		}
+	}
+}
